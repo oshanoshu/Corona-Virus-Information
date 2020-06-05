@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "my-app",
-    "slug": "my-app",
+    "name": "COVID-19 Quick Updates",
+    "slug": "covid-19",
     "platforms": [
       "ios",
       "android",
