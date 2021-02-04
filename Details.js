@@ -154,7 +154,7 @@ export default class Details extends React.Component {
                      <ProgressChart
                         data={{
                             labels: ["Cases", "Deaths", "New Cases"],
-                            data: [this.CountryData.TotalConfirmed/this.GlobalData.TotalConfirmed, this.CountryData.TotalDeaths/this.GlobalData.TotalDeaths, this.CountryData.NewConfirmed/this.GlobalData.NewConfirmed]
+                            data: [Math.round(this.CountryData.TotalConfirmed*100/this.GlobalData.TotalConfirmed)/100, Math.round(this.CountryData.TotalDeaths*100/this.GlobalData.TotalDeaths)/100, Math.round(this.CountryData.NewConfirmed*100/this.GlobalData.NewConfirmed)/100]
                         }
                         }
                         width={Dimensions.get("window").width}
