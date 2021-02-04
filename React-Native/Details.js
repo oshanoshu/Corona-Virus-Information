@@ -151,7 +151,7 @@ export default class Details extends React.Component {
                             borderRadius: 16
                         }}
                     />
-                    {/* <ProgressChart
+                     <ProgressChart
                         data={{
                             labels: ["Cases", "Deaths", "New Cases"],
                             data: [this.CountryData.TotalConfirmed/this.GlobalData.TotalConfirmed, this.CountryData.TotalDeaths/this.GlobalData.TotalDeaths, this.CountryData.NewConfirmed/this.GlobalData.NewConfirmed]
@@ -164,7 +164,7 @@ export default class Details extends React.Component {
                         chartConfig={chartConfig}
                         hideLegend={false}
                         
-                        /> */}
+                        /> 
                     </ScrollView>
             </View>
         )
