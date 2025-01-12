@@ -1,4 +1,4 @@
-# Corona-Virus-Information
+# Corona-VirusInformation
 React-native application targeted for iOS and Android users.
 
 ### Created using [Expo](https://docs.expo.io/) 
