@@ -5,4 +5,6 @@ React-native application targeted for iOS and Android users.
 
 ### API used [COVID-19 API](https://api.covid19api.com)
 
+Good Luck!
+
 
